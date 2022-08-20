@@ -6,10 +6,6 @@
 import json
 from pkgutil import iter_importers
 from unicodedata import name
-import requests
-import sys
-import os
-import time
 import base64
 
 thefile = input("Enter the file to import: ")
