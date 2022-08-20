@@ -1,8 +1,8 @@
 ## Imports a file from a directory and loads the json from it into memory.
 ## The json is then posted to a url in teamcraft
 
-## Usage: python makeplace_importer.py <file>
-## Example: python makeplace_importer.py ./data/makeplace.json
+## Usage: python makeplace_importer.py
+## Example: python makeplace_importer.py
 import json
 from pkgutil import iter_importers
 from unicodedata import name
